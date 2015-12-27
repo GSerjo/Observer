@@ -46,14 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\Models\Entities\Hashtag.cs" />
     <Compile Include="TwetterConfig.cs" />
     <Compile Include="Contracts\ITwitterObserver.cs" />
     <Compile Include="OAuthSupport.cs" />
     <Compile Include="TwitterClient.cs" />
     <Compile Include="Contracts\Models\Attributes.cs" />
     <Compile Include="Contracts\Models\BoundingBox.cs" />
-    <Compile Include="Contracts\Models\Entities.cs" />
-    <Compile Include="Contracts\Models\Place.cs" />
+    <Compile Include="Contracts\Models\Entities\EntityList.cs" />
     <Compile Include="Contracts\Models\Tweet.cs" />
     <Compile Include="Contracts\Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace TwitterInfrastructure.Contracts.Models
+namespace TwitterInfrastructure.Contracts.Models.Entities
 {
-    public sealed class Entities
+    public sealed class EntityList
     {
         [JsonProperty("hashtags")]
-        public List<object> Hashtags { get; set; }
+        public List<Hashtag> Hashtags { get; set; }
 
         [JsonProperty("trends")]
         public List<object> Trends { get; set; }

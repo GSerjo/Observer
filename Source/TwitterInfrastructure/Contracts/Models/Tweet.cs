@@ -13,17 +13,11 @@ namespace TwitterInfrastructure.Contracts.Models
         [JsonProperty("id")]
         public long Id { get; set; }
 
-        [JsonProperty("id_str")]
-        public string IdString { get; set; }
-
         [JsonProperty("text")]
         public string Text { get; set; }
 
         [JsonProperty("source")]
         public string Source { get; set; }
-
-        [JsonProperty("truncated")]
-        public bool Truncated { get; set; }
 
         [JsonProperty("in_reply_to_status_id")]
         public object InReplyToStatusId { get; set; }
@@ -43,29 +37,8 @@ namespace TwitterInfrastructure.Contracts.Models
         [JsonProperty("user")]
         public User User { get; set; }
 
-        [JsonProperty("geo")]
-        public object Geo { get; set; }
-
-        [JsonProperty("coordinates")]
-        public object Coordinates { get; set; }
-
-        [JsonProperty("place")]
-        public Place Place { get; set; }
-
-        [JsonProperty("contributors")]
-        public object Contributors { get; set; }
-
-        [JsonProperty("retweet_count")]
-        public int RetweetCount { get; set; }
-
-        [JsonProperty("favorite_count")]
-        public int FavoriteCount { get; set; }
-
         [JsonProperty("entities")]
-        public Entities Entities { get; set; }
-
-        [JsonProperty("favorited")]
-        public bool Favorited { get; set; }
+        public Entities.EntityList Entities { get; set; }
 
         [JsonProperty("retweeted")]
         public bool Retweeted { get; set; }
