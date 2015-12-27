@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace TwitterInfrastructure.Contracts.Models
+namespace Twitter.Infrastructure.Contracts.Models
 {
     public sealed class BoundingBox
     {

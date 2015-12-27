@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TwitterInfrastructure
+namespace Twitter.Infrastructure
 {
     public sealed class TwetterConfig
     {

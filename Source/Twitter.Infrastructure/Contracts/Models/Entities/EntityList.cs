@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace TwitterInfrastructure.Contracts.Models.Entities
+namespace Twitter.Infrastructure.Contracts.Models.Entities
 {
     public sealed class EntityList
     {

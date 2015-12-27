@@ -1,7 +1,7 @@
 ﻿using System;
-using TwitterInfrastructure;
-using TwitterInfrastructure.Contracts;
-using TwitterInfrastructure.Contracts.Models;
+using Twitter.Infrastructure;
+using Twitter.Infrastructure.Contracts;
+using Twitter.Infrastructure.Contracts.Models;
 
 namespace TweetStreamer
 {

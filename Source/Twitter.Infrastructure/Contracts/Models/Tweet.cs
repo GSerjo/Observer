@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace TwitterInfrastructure.Contracts.Models
+namespace Twitter.Infrastructure.Contracts.Models
 {
     /// <summary>
     ///     https://dev.twitter.com/overview/api/tweets

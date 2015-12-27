@@ -10,10 +10,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using TwitterInfrastructure.Contracts;
-using TwitterInfrastructure.Contracts.Models;
+using Twitter.Infrastructure.Contracts;
+using Twitter.Infrastructure.Contracts.Models;
 
-namespace TwitterInfrastructure
+namespace Twitter.Infrastructure
 {
     public sealed class TwitterClient : OAuthSupport
     {

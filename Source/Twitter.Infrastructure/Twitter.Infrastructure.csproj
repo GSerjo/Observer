@@ -7,8 +7,8 @@
     <ProjectGuid>{E4DD8744-0134-43A5-9DA3-BAB8393EB139}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TwitterInfrastructure</RootNamespace>
-    <AssemblyName>TwitterInfrastructure</AssemblyName>
+    <RootNamespace>Twitter.Infrastructure</RootNamespace>
+    <AssemblyName>Twitter.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
