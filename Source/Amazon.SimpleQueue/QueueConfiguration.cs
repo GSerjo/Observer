@@ -27,7 +27,7 @@ namespace Amazon.SimpleQueue
         public IMessageQueue CreateQueue()
         {
             Validate();
-            return new AmazonMessageQueue();
+            return new AmazonMessageQueue(this);
         }
 
         private void Validate()
