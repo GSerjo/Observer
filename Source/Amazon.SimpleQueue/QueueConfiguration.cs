@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Configuration;
+using Core.Serializers;
 
 namespace Amazon.SimpleQueue
 {
-    public sealed class QueueConfiguration
+    public sealed class QueueConfiguration : IMessageQueueConfig
     {
         private QueueConfiguration()
         {
         }
 
         public string QueueUrl { get; set; }
+        public IDataSerializer DataSerializer { get; set; }
 
         public static QueueConfiguration Create()
         {
@@ -22,10 +24,10 @@ namespace Amazon.SimpleQueue
             return this;
         }
 
-        public IMessageQueue CreateQueu()
+        public IMessageQueue CreateQueue()
         {
             Validate();
-            return new AmazonQueue();
+            return new AmazonMessageQueue();
         }
 
         private void Validate()
@@ -33,6 +35,10 @@ namespace Amazon.SimpleQueue
             if (string.IsNullOrWhiteSpace(QueueUrl))
             {
                 throw new ConfigurationErrorsException(nameof(QueueUrl));
+            }
+            if (DataSerializer == null)
+            {
+                throw new ConfigurationErrorsException(nameof(DataSerializer));
             }
         }
     }

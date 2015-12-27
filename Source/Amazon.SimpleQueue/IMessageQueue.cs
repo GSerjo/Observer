@@ -2,5 +2,6 @@
 {
     public interface IMessageQueue
     {
+        void Send(object value);
     }
 }
