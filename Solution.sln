@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterInfrastructure", "So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.SimpleQueue", "Source\Amazon.SimpleQueue\Amazon.SimpleQueue.csproj", "{18E01D46-E8FB-4ADC-A280-493F97E4BF67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Source\UnitTests\UnitTests.csproj", "{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{18E01D46-E8FB-4ADC-A280-493F97E4BF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E01D46-E8FB-4ADC-A280-493F97E4BF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E01D46-E8FB-4ADC-A280-493F97E4BF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
