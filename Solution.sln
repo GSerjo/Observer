@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.SimpleQueue", "Sourc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Source\UnitTests\UnitTests.csproj", "{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Source\Core\Core.csproj", "{DA34AF3C-633F-4402-A76E-E9A54A643D99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3821238-835D-4EF2-A4E5-8DCC3BEA4952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA34AF3C-633F-4402-A76E-E9A54A643D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA34AF3C-633F-4402-A76E-E9A54A643D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA34AF3C-633F-4402-A76E-E9A54A643D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA34AF3C-633F-4402-A76E-E9A54A643D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

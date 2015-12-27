@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using Amazon.SQS;
+using Xunit;
 
 namespace UnitTests
 {
@@ -7,6 +8,11 @@ namespace UnitTests
         [Fact]
         public void Test()
         {
+            var config = new AmazonSQSConfig
+            {
+                 
+            };
+            var client = new AmazonSQSClient(config);
         }
     }
 }
